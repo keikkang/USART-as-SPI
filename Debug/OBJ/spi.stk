@@ -1,0 +1,18 @@
+!d:\xtx\sdk\sdk_release (2)\sdk_release\code\636_spi\src\spi.c
+# E=Extern S=Static I=Interrupt
+# {Stack}    {E|S|I} {function name}
+#     ->     {E|S}   {call function}
+#             ...
+#
+         2	E	_SPI_Init
+#
+         2	E	_SPI_CS_Enable
+#
+         2	E	_SPI_CS_Disable
+#
+         8	E	_SPI_Wait	A
+#
+         6	E	_SPI_Write_Read
+	->	E	_SPI_CS_Disable
+	->	E	_SPI_Wait
+	->	E	_SPI_CS_Enable

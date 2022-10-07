@@ -1,0 +1,30 @@
+-g
+-AL 2
+-ra _INRAM01=0x0090/0x048F
+-ro _INROM01=0x1000/0x1FFF
+-ro _INROM02=0x8000/0xFFFF
+-sc @INIT/Const+@DIRINIT/Dirconst=_INROM02
+-check_rora
+-check_locate
+-rg 0
+-m "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\LST\95630_template_95636.mp1"
+-pl 60
+-pw 132
+-alin "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\LST"
+-alout "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\LST"
+-Xals
+-Xalr
+-na
+-w 1
+-Xset_rora
+-cwno
+-a
+-cpu XT95F636H
+-o "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\ABS\95630_template_95636.abs"
+
+"D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\_f2mc8fx.obj"
+"D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\start8FX.obj"
+"D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\main.obj"
+"D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\vectors.obj"
+"D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\spi.obj"
+

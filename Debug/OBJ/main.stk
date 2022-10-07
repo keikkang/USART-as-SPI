@@ -1,0 +1,16 @@
+!d:\xtx\sdk\sdk_release (2)\sdk_release\code\636_spi\src\main.c
+# E=Extern S=Static I=Interrupt
+# {Stack}    {E|S|I} {function name}
+#     ->     {E|S}   {call function}
+#             ...
+#
+         2	E	_main
+	->	E	_InitIrqLevels
+#
+         2	E	_LIN_Uart_Mode0_Init
+#
+         2	E	_Init_ReloadTimer
+#
+        16	E	_wait	A
+	->	E	LCOMPL
+	->	E	LSUBL

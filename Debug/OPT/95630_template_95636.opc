@@ -1,0 +1,16 @@
+-g
+-w 1
+-I ".\src"
+-I ".\src\lcd"
+-I ".\src\delay"
+-I ".\src\gpio"
+-I ".\src\menu"
+-I ".\src\sensors"
+-I ".\src\watch"
+-I ".\src\fram"
+-I ".\src\timer"
+-O 0
+-B
+-c
+-cwno
+-cpu XT95F636H

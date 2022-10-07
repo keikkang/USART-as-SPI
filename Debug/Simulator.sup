@@ -1,0 +1,53 @@
+[Information]
+DebChangeFlag=1
+MCUChangeFlag=1
+[Version]
+Version=1
+Level=1
+Revision=0
+[Debug Type]
+Type=1
+Virtual CPU File=wv896s1.dll
+Core ID=0
+Monitor Load=0
+Monitor Load Condition=Disable
+ChangeFlag=Disable
+[Device]
+Communication=LAN
+ProductID=0
+Protocol=0
+[Target]
+AutoLoad=Enable
+Before Batch File=
+After Batch File=
+Main Freq=0
+Main Freq Unit=F4240
+ClockUP Mode=Enable
+PowerSupply=Disable
+StartFlashSync=Enable
+[Start]
+Batch File=
+[Emulation Environment]
+Cable Length=0
+Software Break=FFFFFFFF
+Flag=Enable
+[Window]
+Flag=Enable
+[Path Environment]
+Flag=Enable
+[Map]
+Flag=Enable
+[Radix Environment]
+Flag=Enable
+[Watch Environment]
+Flag=Enable
+[Exec Environment]
+Flag=Enable
+[Break Environment]
+Flag=Enable
+[Monitor Environment]
+Flag=Enable
+[Error]
+Flag=Enable
+[Color]
+Flag=Enable

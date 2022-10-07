@@ -1,0 +1,13 @@
+-dt s,d,r,a
+-pl 60
+-pw 132
+-g
+-cwno
+-cpu XT95F636H
+"D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\ABS\95630_template_95636.abs"
+-a "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\_f2mc8fx.obj"
+-a "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\start8FX.obj"
+-a "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\main.obj"
+-a "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\vectors.obj"
+-a "D:\XTX\SDK\sdk_release (2)\sdk_release\code\636_SPI\Debug\OBJ\spi.obj"
+
